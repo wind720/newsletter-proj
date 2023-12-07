@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Futura';
+    src: url(Futura\ Display.ttf);
+}
+
+body{
+    background-color: #ececec;
+}
+h1{
+    color: #E886BF;
+    text-align: center;
+    font-family: 'Futura';
+    text-shadow: -2px 0 #791750, 0 2px #791750, 2px 0 #791750, 0 -2px #791750;
+    font-size: 60px;
+}
+p{
+    font-family: 'Futura';
+    font-size: 30px;
+}
+.lmbr{
+    color: #E886BF;
+    text-shadow: -2px 0 #791750, 0 2px #791750, 2px 0 #791750, 0 -2px #791750;
+}
+.rct{
+    color: #FFB900;
+    text-shadow: -2px 0 #463713, 0 2px #705B24, 2px 0 #705B24, 0 -2px #705B24;
+}
+.col1{
+    width: 20%;
+    text-align: center;
+}
+.col2{
+    width: 30%;
+}
+.col3{
+    width: 20%;
+    text-align: center;
+}
+.menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    border-radius: 10px;
+    border: solid rgb(133, 102, 17) 6px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.icon{
+    width: 40px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px){
+    .col1{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        gap: 40px;
+    }
+    .col2{
+        width: 40%;
+    }
+    .col3{
+        width: 40%;
+    }
+    .menu{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 10px;
+        border: solid rgb(133, 102, 17) 6px;
+    }
+}
+@media only screen and (max-width: 600px){
+p{
+    font-size: 15px;
+}
+}
